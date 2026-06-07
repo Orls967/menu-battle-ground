@@ -36,7 +36,7 @@ https://menu-battle-ground.vercel.app/
 
 ## Smart Contract Information
 
-### Contract ID
+### Mainnet Contract ID
 
 CAKA636NFFHH75IY2JTEJNS7TLSHCB4RAETPOLFB5GIRAXR4NLNBID6C
 
