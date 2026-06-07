@@ -15,7 +15,7 @@ The application allows users to connect their Freighter Wallet and vote for thei
 - Real-time leaderboard
 - Decentralized vote storage
 - React-based user interface
-- Stellar Testnet deployment
+- Stellar Mainnet deployment
 
 ---
 
@@ -76,14 +76,14 @@ Stellar Mainnet
 1. Connect a Freighter Wallet.
 2. Select a menu item.
 3. Sign the transaction through Freighter.
-4. The smart contract records the vote on Stellar Testnet.
+4. The smart contract records the vote on Stellar Mainnet.
 5. The leaderboard updates automatically with the latest vote count.
 
 ---
 
 ## Project Structure
 
-text menu-battle-ground │ ├── contracts │   └── hello-world │       ├── src │       │   ├── lib.rs │       │   └── test.rs │       ├── Cargo.toml │       └── Makefile │ ├── contracts/hello-world/frontend │   ├── src │   ├── contracts │   ├── public │   └── package.json │ ├── Cargo.toml └── README.md 
+text menu-battle-ground │ ├── contracts │   └── hello-world │       ├── src │       │   ├── lib.rs │       │   └── test.rs │       ├── Cargo.toml │       └── Makefile │ ├── contracts │   └── hello-world │       └── frontend │           ├── src │           ├── contracts │           ├── public │           └── package.json │ ├── Cargo.toml └── README.md 
 
 ---
 
@@ -97,7 +97,7 @@ Menu Battle Ground Screenshot
 
 text Ayam Geprek : 1 Mie Ayam    : 0 Bakso       : 0 Es Teh      : 0 
 
-The result above demonstrates that votes are successfully stored and retrieved from the Stellar Testnet blockchain.
+The result above demonstrates that votes are successfully stored and retrieved from the Stellar Mainnet blockchain.
 
 ---
 
@@ -116,7 +116,7 @@ Universitas Lambung Mangkurat
 This project was developed as part of the Stellar Smart Contract Workshop and demonstrates:
 
 - Soroban Smart Contract Development
-- Stellar Testnet Deployment
+- Stellar Mainnet Deployment
 - Freighter Wallet Integration
 - React Frontend Development
 - On-chain Data Storage
