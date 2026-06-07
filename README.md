@@ -1,19 +1,21 @@
 # Menu Battle Ground (MBG)
 
-Menu Battle Ground (MBG) is a decentralized voting application built on the Stellar Soroban Smart Contract platform. Users can connect their Freighter Wallet and vote for their favorite menu directly on the Stellar Testnet blockchain.
+## Overview
 
-All voting data is stored on-chain through a smart contract, ensuring transparency and immutability.
+Menu Battle Ground (MBG) is a decentralized voting application built on the Stellar Soroban Smart Contract platform.
+
+The application allows users to connect their Freighter Wallet and vote for their favorite menu item. Every vote is recorded directly on the Stellar blockchain through a Soroban smart contract, ensuring transparency, security, and immutability.
 
 ---
 
 ## Features
 
-- Connect wallet using Freighter Wallet
-- Vote for your favorite food or drink
-- Store votes on Stellar Testnet Blockchain
-- Real-time leaderboard display
-- Smart contract interaction using Soroban
-- React-based frontend interface
+- Freighter Wallet integration
+- On-chain voting using Soroban Smart Contracts
+- Real-time leaderboard
+- Decentralized vote storage
+- React-based user interface
+- Stellar Testnet deployment
 
 ---
 
@@ -26,30 +28,30 @@ All voting data is stored on-chain through a smart contract, ensuring transparen
 
 ---
 
+## Live Demo
+
+https://menu-battle-ground.vercel.app/
+
+---
+
 ## Smart Contract Information
 
 ### Contract ID
 
-```text
-CAFBSSDUIFAHPTJJW4MCESAQKYBSUCGE6J4WPLZYBBQVGT6XXU3JPZTD
-```
+CAKA636NFFHH75IY2JTEJNS7TLSHCB4RAETPOLFB5GIRAXR4NLNBID6C
 
 ### Network
 
-```text
-Stellar Testnet
-```
+Stellar Mainnet
 
-### Contract Functions
-
-#### Read Functions
+### Read Functions
 
 - get_geprek()
 - get_mie()
 - get_bakso()
 - get_esteh()
 
-#### Write Functions
+### Write Functions
 
 - vote_geprek()
 - vote_mie()
@@ -71,64 +73,31 @@ Stellar Testnet
 
 ## How It Works
 
-1. User connects their Freighter Wallet.
-2. User selects a menu item.
-3. A transaction is signed through Freighter Wallet.
+1. Connect a Freighter Wallet.
+2. Select a menu item.
+3. Sign the transaction through Freighter.
 4. The smart contract records the vote on Stellar Testnet.
-5. The leaderboard updates with the latest vote count.
+5. The leaderboard updates automatically with the latest vote count.
 
 ---
 
 ## Project Structure
 
-```text
-menu-battle-ground
-│
-├── contracts
-│   └── hello-world
-│       ├── src
-│       │   ├── lib.rs
-│       │   └── test.rs
-│       ├── Cargo.toml
-│       └── Makefile
-│
-├── frontend
-│   ├── src
-│   │   ├── App.jsx
-│   │   ├── App.css
-│   │   └── main.jsx
-│   ├── contracts
-│   │   └── mbgcontract.ts
-│   └── package.json
-│
-├── Cargo.toml
-└── README.md
-```
+text menu-battle-ground │ ├── contracts │   └── hello-world │       ├── src │       │   ├── lib.rs │       │   └── test.rs │       ├── Cargo.toml │       └── Makefile │ ├── contracts/hello-world/frontend │   ├── src │   ├── contracts │   ├── public │   └── package.json │ ├── Cargo.toml └── README.md 
 
 ---
 
 ## Frontend Screenshot
 
-### Main Interface
-
-Add your application screenshot below:
-
-![Menu Battle Ground Screenshot](./screenshot.png)
+Menu Battle Ground Screenshot
 
 ---
 
-## Demo Result
+## Example Result
 
-Example leaderboard:
+text Ayam Geprek : 1 Mie Ayam    : 0 Bakso       : 0 Es Teh      : 0 
 
-```text
-Ayam Geprek : 1
-Mie Ayam    : 0
-Bakso       : 0
-Es Teh      : 0
-```
-
-This demonstrates that votes are successfully stored and retrieved from the Stellar Testnet blockchain.
+The result above demonstrates that votes are successfully stored and retrieved from the Stellar Testnet blockchain.
 
 ---
 
@@ -146,8 +115,9 @@ Universitas Lambung Mangkurat
 
 This project was developed as part of the Stellar Smart Contract Workshop and demonstrates:
 
-- Smart Contract Development using Soroban
-- Smart Contract Deployment on Stellar Testnet
-- Wallet Integration with Freighter
-- Frontend Integration using React
-- On-chain Data Storage and Retrieval
+- Soroban Smart Contract Development
+- Stellar Testnet Deployment
+- Freighter Wallet Integration
+- React Frontend Development
+- On-chain Data Storage
+- Decentralized Voting Mechanism
