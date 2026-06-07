@@ -6,7 +6,7 @@ import { CONTRACT_ID } from '../contracts/mbgcontract'
 import '../contracts/mbgcontract'
 
 const kit = new StellarContractsKit({
-  network: 'testnet',
+  network: 'mainnet',
 })
 
 function App() {
